@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cndatacom.pcc.dao.EvaluationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cndatacom.pcc.domain.Evaluation">
+        <id column="pj_id" property="pjId" />
+        <result column="pj_score" property="pjScore" />
+        <result column="oid" property="oid" />
+        <result column="dr_id" property="drId" />
+        <result column="stu_id" property="stuId" />
+        <result column="pj_navigation" property="pjNavigation" />
+        <result column="pj_polite" property="pjPolite" />
+        <result column="pj_security" property="pjSecurity" />
+        <result column="pj_clean" property="pjClean" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>

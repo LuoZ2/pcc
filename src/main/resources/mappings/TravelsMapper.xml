@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cndatacom.pcc.dao.TravelsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cndatacom.pcc.domain.Travels">
+        <id column="travelid" property="travelid" />
+        <result column="init_id" property="initId" />
+        <result column="origin_addr" property="originAddr" />
+        <result column="destination" property="destination" />
+        <result column="expect_num" property="expectNum" />
+        <result column="actual_num" property="actualNum" />
+        <result column="status" property="status" />
+        <result column="telephone" property="telephone" />
+        <result column="created" property="created" />
+        <result column="starttime" property="starttime" />
+    </resultMap>
+
+</mapper>

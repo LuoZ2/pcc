@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cndatacom.pcc.dao.StudentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cndatacom.pcc.domain.Student">
+        <id column="stu_id" property="stuId" />
+        <result column="stu_name" property="stuName" />
+        <result column="stu_nick" property="stuNick" />
+        <result column="school" property="school" />
+        <result column="stu_sex" property="stuSex" />
+        <result column="stu_password" property="stuPassword" />
+        <result column="stu_status" property="stuStatus" />
+        <result column="stu_num" property="stuNum" />
+        <result column="stu_wechat" property="stuWechat" />
+        <result column="stu_tel" property="stuTel" />
+        <result column="stu_image" property="stuImage" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>

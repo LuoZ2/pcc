@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cndatacom.pcc.dao.DriversMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cndatacom.pcc.domain.Drivers">
+        <id column="dr_id" property="drId" />
+        <result column="dr_name" property="drName" />
+        <result column="dr_tel" property="drTel" />
+        <result column="dr_license" property="drLicense" />
+        <result column="dr_carid" property="drCarid" />
+        <result column="dr_cartype" property="drCartype" />
+        <result column="dr_addr" property="drAddr" />
+        <result column="dr_password" property="drPassword" />
+        <result column="dr_status" property="drStatus" />
+        <result column="dr_num" property="drNum" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>
